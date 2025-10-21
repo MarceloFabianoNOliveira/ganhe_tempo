@@ -102,7 +102,7 @@ export const ServiceInformationForm: React.FC<ServiceInformationFormProps> = ({
                   onCheckedChange={() => toggleCategory(option.id)}
                   id={`category_${option.id}`}                 
                 />
-                <span>{option.name} - R$ {option.price}</span>
+                <span>{option.name}</span>
               </label>
             ))}
           </div>

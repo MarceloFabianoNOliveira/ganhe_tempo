@@ -54,8 +54,8 @@ export const SignupFormContent: React.FC<SignupFormContentProps> = ({
       setSignupError('As senhas não coincidem.');
       return;
     }
-    if(name.length < 10){
-      setSignupError('O Nome de Usuário deve ter, pelo menos, 10 caracteres!');
+    if(name.length < 6){
+      setSignupError('O Nome de Usuário deve ter, pelo menos, 6 caracteres!');
       return;
     }
 
